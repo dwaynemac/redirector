@@ -1,0 +1,17 @@
+{
+  "name": "redirector",
+  "version": "1.0.0",
+  "description": "redirector",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Dwayne Macgowan",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  },
+  "keywords": [
+    "redirect"
+  ]
+}
