@@ -19,11 +19,9 @@ const config = loadConfig();
 
 const http = require('http');
 
-
-
 const server = http.createServer((req, res) => {
   res.writeHead(302, {
-    'Location': config.targetUrl
+    'Location': config.targetUrl + req.url
   });
   res.end();
 });
